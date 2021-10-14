@@ -8,20 +8,30 @@
         Wits Digital Arts
     </title>
 
+    <!--stylesheet-->
     <link rel="stylesheet" href="style.css">
 
+    <!--google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,700;1,600&display=swap"
         rel="stylesheet">
+
+    <!--font awesome stylesheet-->
+    <script src="https://kit.fontawesome.com/988710c68c.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
+
+
+    <!--Main Header-->
     <section class="header">
         <nav>
             <a href="index.html"><img src="Images/digital-arts-logo.png"
                     alt="Wits Digital Arts Logo. A blue line shaped into a squre is interrupted in the bottom right corner by the words, The Wits School of Arts."></a>
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="menuHide()"></i>
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT US</a></li>
@@ -30,7 +40,9 @@
                     <li><a href="">CONTACT US</a></li>
                 </ul>
             </div>
+            <i class="fa fa-bars" onclick="menuShow()"></i>
         </nav>
+
         <div class="text-box">
             <h1>
                 Welcome to Wits Digital Arts
@@ -42,6 +54,67 @@
             <a href="" class="main-btn">Find Out More</a>
         </div>
     </section>
+
+    <!--Courses Section-->
+    <section class="courses">
+        <h1>
+            What We Offer
+        </h1>
+        <p>
+            At Wits Digital Arts, we offer pioneered collaborations between Wits Electrical and Information Engineering,
+            and the Wits School of Arts.
+        </p>
+
+        <div class="row">
+            <div class="courses-colm">
+                <h3>
+                    BA Digital Arts
+                </h3>
+                <p>
+                    The BA in Digital Arts is a 4 Year Professional Degree that allows you to tailor your
+                    specialisation, and also gives you a useful, broad skillset. The combination of artistic, technical
+                    and critical skills equips you to be an innovator, practical problem-solver, as well as a critical
+                    thinker and artist.
+            </div>
+            <div class="courses-colm">
+                <h3>
+                    BEngSc Digital Arts
+                </h3>
+                <p>
+                    The BEngSc in Digital Arts is a combination of information engineering and
+                    creative production gives you a broad range of critical and technical skills. This equips you to
+                    enter the technology sector with an unique perspective: blending software development, systems
+                    thinking, and creative application.
+                </p>
+            </div>
+            <div class="courses-colm">
+                <h3>
+                    Post-Graduate
+                </h3>
+                <p>
+                    <br>
+                    Wits Digital Arts has a fantastic range of postgraduate study opportunities, starting with our
+                    Honours Degree and continuing into Master’s Degrees and even PhD offerings.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Menu Toggle - Make seperate JS -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function menuShow() {
+            navLinks.style.right = "0";
+        }
+
+        function menuHide() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
 
 </body>
 
