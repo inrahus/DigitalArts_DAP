@@ -200,12 +200,12 @@ nav .fa{
     padding-top: 100px;
 }
 
-.courses h1{
+h1{
     font-size: 42px;
     font-weight: 600;
 }
 
-.courses p{
+p{
     color: #777;
 
     font-size: 16px;
@@ -258,11 +258,51 @@ h3{
         flex-direction: column;
     }
 
-    .courses h1{
+    h1{
         font-size: 22px;
     }
 
-    .courses p{
+    p{
         font-size: 14px;
     }
+}
+
+/*Our Students Homepage*/
+.students{
+    width: 80%;
+    
+    margin: auto;
+
+    padding-top: 100px;
+
+    text-align: center;
+}
+
+.students-colm{
+    flex-basis: 44%;
+
+    border-radius: 10px;
+
+    margin-bottom: 5%;
+
+    text-align: justify;
+
+    background: #aee0e2;
+
+    padding: 25px;
+
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.students-colm img{
+    height: 125px;
+
+    margin-left: 5px;
+    margin-right: 30px;
+
+    border-radius: 50%;
 }
