@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Wits Digital Arts
+    </title>
+
+    <!--stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,700;1,600&display=swap"
+        rel="stylesheet">
+
+    <!--font awesome stylesheet-->
+    <script src="https://kit.fontawesome.com/988710c68c.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+    <!--Header-->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/digital-arts-logo.png"
+                    alt="Wits Digital Arts Logo. A blue line shaped into a squre is interrupted in the bottom right corner by the words, The Wits School of Arts."></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="menuHide()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="alumni.html">OUR ALUMNI</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="menuShow()"></i>
+        </nav>
+
+        <h1>
+            About Us
+        </h1>
+    </section>
+
+    <!--About Content-->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-colm">
+                <h1>
+                    What We Do
+                </h1>
+
+                <p>
+                    At the Digital Arts Department, we focus on producing graduates with a deep understanding of the
+                    theories and practice of Technology Arts.
+                    <br>
+                    <br>
+                    Our three key areas of interest are: Animation, Game
+                    Design and Interactive Media. Our students leave with diverse skill sets: technically,
+                    theoretically, and
+                    artistically. These elements are addressed holistically throughout our programs. Our focus is on
+                    producing students that demonstrate adaptability and critical understanding in professional
+                    arenas:
+                    as independent artists, entrepreneurs, as well as in the more formalized workforce.
+                    <br>
+                    <br>
+                    Digital technologies are driving factors in economic and cultural development throughout
+                    Africa, and for our graduates to enter this space they have to be both technically and
+                    critically
+                    equipped to work within this challenging environment.
+                </p>
+
+                <a href="courses.html#courses" class="main-btn other-btn">What We Offer</a>
+
+            </div>
+            <div class="about-colm">
+                <img src="Images/uriel-soberanes-MxVkWPiJALs-unsplash.jpg"
+                    alt="A man with a VR headset on loooks up in awe. He is a skinny white boy with a longsleeve top on. The top has a large overfilled burger with eyes on it.">
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <h4>
+            Social Media
+        </h4>
+        <p>
+            Follow us on our Social Media and stay informed about the latest at the Digital Arts Department
+        </p>
+        <div class="social-icons">
+            <i class="fa fa-facebook"><a href="https://www.facebook.com/Wits.Digital.Arts"></a></i>
+            <i class="fa fa-twitter"><a href="https://twitter.com/WitsDigitalArt"></a></i>
+            <i class="fa fa-instagram"><a href="https://instagram.com/witsdigitalarts?utm_medium=copy_link"></a></i>
+            <i class="fa fa-gamepad"><a href="https://wits-digital-arts.itch.io/"></a></i>
+        </div>
+    </footer>
+
+    <!-- Menu Toggle - Make seperate JS -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function menuShow() {
+            navLinks.style.right = "0";
+        }
+
+        function menuHide() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
