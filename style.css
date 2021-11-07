@@ -291,46 +291,6 @@ h3{
     }
 }
 
-/*Our Students Homepage*/
-.students{
-    width: 80%;
-    
-    margin: auto;
-
-    padding-top: 100px;
-
-    text-align: center;
-}
-
-.students-colm{
-    flex-basis: 44%;
-
-    border-radius: 10px;
-
-    margin-bottom: 5%;
-
-    text-align: justify;
-
-    background: #aee0e2;
-
-    padding: 25px;
-
-    display: flex;
-
-    flex-direction: column;
-
-    align-items: center;
-}
-
-.students-colm img{
-    height: 125px;
-
-    margin-left: 5px;
-    margin-right: 30px;
-
-    border-radius: 50%;
-}
-
 /*Contact Block*/
 .contact{
     margin: 100px auto;
@@ -470,4 +430,82 @@ h3{
 
 .ba-degree, .beng-degree, .post-degree{
     padding-top: 50px;
+}
+
+
+/*Alumni Page*/
+.alumni-content{
+width: 80%;
+
+margin: auto;
+
+padding: 60px 0;
+}
+
+.left-blog{
+    flex-basis: 70%;
+}
+
+.left-blog img{
+    width: 100%;
+}
+
+.left-blog h2{
+    color: #222;
+
+    font-weight: 600;
+
+    margin: 30px 0;
+}
+
+/*Our Students*/
+.students{
+    width: 40%;
+    
+    margin: none;
+
+    padding-top: 100px;
+
+    text-align: center;
+
+}
+
+.student-row{
+    margin-top: 5%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    flex-direction: column;
+
+}
+
+.students-colm{
+    flex-basis: 30%;
+
+    border-radius: 10px;
+
+    margin-bottom: 5%;
+
+    text-align: justify;
+
+    background: #aee0e2;
+
+    padding: 25px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.students-colm img{
+    height: 125px;
+
+    margin-left: 5px;
+    margin-right: 30px;
+
+    border-radius: 50%;
 }
