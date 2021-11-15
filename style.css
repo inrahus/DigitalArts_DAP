@@ -156,7 +156,8 @@ nav .fa{
 .other-btn:hover{
     color: #fff;
 }
-/*Resposivity*/
+
+/*Responsivity*/
 
 @media(max-width: 700px){
 
@@ -213,7 +214,7 @@ nav .fa{
 
     text-align: center;
 
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 h1{
@@ -225,6 +226,7 @@ p{
     color: #777;
 
     font-size: 16px;
+
     font-weight: 300;
 
     line-height: 22px;
@@ -242,39 +244,95 @@ p{
 }
 
 .courses-colm{
-    flex-basis: 31%;
+    flex-basis: 32%;
 
-    background: #aee0e2;
+    border-radius: 5px;
 
-    border-radius: 10px;
+    margin-bottom: 30px;
 
-    margin-bottom: 5%;
+    position: relative;
 
-    padding: 20px 12px;
+    overflow: hidden;
+}
 
-    box-sizing: border-box;
+.courses-colm img{
+    width: 100%;
 
-    cursor: pointer;
+    display: block;
 
+}
+
+.layer{
+    background: transparent;
+    
+    height: 100%;
+    
+    width: 100%;
+    
+    position: absolute;
+    
+    top: 0;
+    
+    left: 0;
+    
     transition: 0.5s;
 }
 
-h3{
-    text-align: center;
-
-    font-weight: 600;
-
-    margin: 10px 0;
+.layer:hover{
+    background: #53bcc0a7;
 }
 
-.courses-colm:hover{
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2) ;
+.layer h3{
+    width: 100%;
+
+    font-weight: 500;
+
+    color: white;
+
+    font-size: 26px;
+
+    top: 50%;
+
+    position: absolute;
+
+    opacity: 1;
+
+    transition: 0.5s;
+
+    text-shadow: 1px 1px black;
 }
+
+.layer p{
+    position: absolute;
+
+    align-items: center;
+
+    top: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    transition: 0.75s;
+
+    opacity: 0;
+
+    color: white;
+
+    text-shadow: 0.5px 0.5px black;
+}
+
+.layer:hover p{
+    opacity: 1;
+}
+
+.layer:hover h3{
+    top: 25%;
+}
+
 
 .courses a{
     text-decoration: none;
 
-    color: black;
+    color: white;
 }
 
 @media(max-width: 700px){
@@ -288,6 +346,16 @@ h3{
 
     p{
         font-size: 14px;
+    }
+}
+
+@media(max-width: 1050px){
+    .layer h3{
+        font-size: 18px;
+    }
+
+    .layer p{
+        font-size: 1px;
     }
 }
 
