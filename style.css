@@ -504,6 +504,8 @@ p{
     text-indent: 2%;
  
     list-style-position: inside;
+
+    text-align: justify;
 }
 
 .degree-about ul li{
