@@ -500,16 +500,16 @@ p{
     padding-top: 50px;
 }
 
-ul{
+.degree-about ul{
     text-indent: 2%;
     list-style-position: inside;
 }
-ul li{
+.degree-about ul li{
     text-indent: 2%;
 
 }
 
-Ul li ul{
+.degree-about ul li ul{
     text-indent: 2%;
 }
 
@@ -588,4 +588,74 @@ padding: 60px 0;
     margin-right: 30px;
 
     border-radius: 50%;
+}
+
+/*Contact Page*/
+.location{
+    width: 80%;
+
+    margin: auto;
+
+    padding: 80px 0;
+}
+
+.location iframe{
+    width: 100%;
+}
+
+.contact-us{
+    width: 80%;
+
+    margin: auto;
+}
+
+.contact-colm{
+    flex-basis: 48%;
+
+    margin-bottom: 30px;
+}
+
+.contact-colm div{
+    display: flex;
+
+    align-items: center;
+
+    margin-bottom: 40px;
+}
+
+.contact-colm div .fa{
+    font-size: 28px;
+
+    color: #53BCC0;
+
+    margin: 10px;
+
+    margin-right: 30px;
+}
+
+.contact-colm div p{
+    padding: 0;
+}
+
+.contact-colm div h5{
+    font-size: 20px;
+
+    font-weight: 500;
+
+    color: #777;
+}
+
+/*Form*/
+.contact-colm input, .contact-colm textarea{
+    width: 100%;
+
+    padding: 15px;
+
+    margin-bottom: 17px;
+
+    outline: none;
+
+    border: 1px solid #ccc;
+
+    box-sizing: border-box;
 }
