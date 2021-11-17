@@ -500,6 +500,22 @@ p{
     padding-top: 50px;
 }
 
+<<<<<<< HEAD
+=======
+ul{
+    text-indent: 2%;
+    list-style-position: inside;
+}
+ul li{
+    text-indent: 2%;
+
+}
+
+Ul li ul{
+    text-indent: 2%;
+}
+
+>>>>>>> parent of e98c980 (yeeeeee)
 /*Alumni Page*/
 .alumni-content{
 width: 80%;
