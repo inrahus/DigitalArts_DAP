@@ -500,18 +500,21 @@ p{
     padding-top: 50px;
 }
 
-ul{
+.degree-about ul{
     text-indent: 2%;
+ 
     list-style-position: inside;
 }
-ul li{
-    text-indent: 2%;
 
-}
-
-Ul li ul{
+.degree-about ul li{
     text-indent: 2%;
 }
+
+.degree-about ul li ul{
+    text-indent: 2%;
+}
+
+
 
 /*Alumni Page*/
 .alumni-content{
