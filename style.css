@@ -518,8 +518,8 @@ p{
 
 
 
-/*Alumni Page*/
-.alumni-content{
+/*News Page*/
+.news-content{
 width: 80%;
 
 margin: auto;
@@ -527,22 +527,43 @@ margin: auto;
 padding: 60px 0;
 }
 
-.left-blog{
-    flex-basis: 70%;
+.news-video{
+    width: 65%;
+
+    margin: auto;
+
+    padding: 60px 0;
 }
 
-.left-blog img{
+.news-video iframe{
     width: 100%;
 }
 
-.left-blog h2{
-    color: #222;
+.news-colm{
+    flex-basis: 48%;
 
-    font-weight: 600;
+    padding: 30px 2px;
 
-    margin: 30px 0;
+    text-align: center;
 }
 
+.news-colm img{
+    width: 100%;
+
+    border-radius: 3px;
+}
+
+.news-colm h2{
+    padding-top: 0;
+}
+
+.news-colm p{
+    padding: 15px 0 25px;
+
+    line-height: 1.5;
+
+    font-size: 18px;
+}
 /*Our Students*/
 .students{
     width: 40%;
