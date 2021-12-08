@@ -553,7 +553,7 @@ padding: 60px 0;
     border-radius: 3px;
 }
 
-.news-colm h2{
+.news-colm h1{
     padding-top: 0;
 }
 
@@ -562,7 +562,7 @@ padding: 60px 0;
 
     line-height: 1.5;
 
-    font-size: 18px;
+    font-size: 20px;
 }
 /*Our Students*/
 .students{
