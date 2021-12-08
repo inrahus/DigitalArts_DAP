@@ -479,6 +479,27 @@ p{
     line-height: 1.5;
 }
 
+.people h1{
+    text-align: center;
+}
+    
+.our-staff{
+    margin-left: 25%;
+    padding: 25px;
+
+    list-style: none;
+
+    line-height: 1.5;
+}
+
+.our-staff span{
+    font-size: 18px;
+}
+
+.our-staff a{
+    text-decoration: none;
+}
+
 /*Courses Page*/
 .degree-about{
     margin: 0 20%;
