@@ -528,11 +528,19 @@ padding: 60px 0;
 }
 
 .news-video{
-    width: 65%;
+    width: 50%;
 
     margin: auto;
 
     padding: 60px 0;
+}
+
+.news-video p{
+    padding: 25px 25px;
+
+    line-height: 1.5;
+
+    font-size: 20px;
 }
 
 .news-video iframe{
@@ -558,7 +566,7 @@ padding: 60px 0;
 }
 
 .news-colm p{
-    padding: 15px 0 25px;
+    padding: 25px 0px 25px;
 
     line-height: 1.5;
 
