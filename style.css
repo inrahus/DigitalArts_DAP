@@ -135,6 +135,8 @@ nav .fa{
     position: relative;
 
     cursor: pointer;
+
+    margin: 5px;
 }
 
 .main-btn:hover{
@@ -484,16 +486,16 @@ p{
 }
     
 .our-staff{
-    margin-left: 25%;
+    margin: 0 20%;
     padding: 25px;
 
     list-style: none;
-
-    line-height: 1.5;
 }
 
-.our-staff span{
-    font-size: 18px;
+.our-staff p{
+    line-height: 1.5;
+
+    font-size: 16px;
 }
 
 .our-staff a{
@@ -536,7 +538,6 @@ p{
 .degree-about ul li ul{
     text-indent: 2%;
 }
-
 
 
 /*News Page*/
@@ -658,10 +659,6 @@ padding: 60px 0;
     text-decoration:none;
 }
 
-.contact-us a span:hover{
-    color: aqua;
-}
-
 .location iframe{
     width: 100%;
 }
@@ -721,4 +718,12 @@ padding: 60px 0;
     border: 1px solid #ccc;
 
     box-sizing: border-box;
+}
+
+.contact-us a:link, .our-staff a:link, .contact-us a:visited, .our-staff a:visited{
+    color: #53BCC0;
+}
+
+.contact-us a:hover, .our-staff a:hover{
+    color: cadetblue;
 }
