@@ -656,6 +656,14 @@ padding: 60px 0;
     border-radius: 50%;
 }
 
+.pic{
+    width: 80%;
+
+    margin: auto;
+
+    padding: 5%;
+}
+
 /*Contact Page*/
 .location{
     width: 80%;
@@ -730,10 +738,10 @@ padding: 60px 0;
     box-sizing: border-box;
 }
 
-.contact-us a:link, .our-staff a:link, .contact-us a:visited, .our-staff a:visited{
+.contact-us a:link, .staff a:link, .degree-about a:link, .contact-us a:visited, .staff a:visited, .degree-about a:visited{
     color: #53BCC0;
 }
 
-.contact-us a:hover, .our-staff a:hover{
+.contact-us a:hover, .staff a:hover, .degree-about a:hover{
     color: cadetblue;
 }
